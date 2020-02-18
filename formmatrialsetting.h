@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QTableView>
 #include <QStandardItemModel>
+#include <QPushButton>
 
 namespace Ui {
 class FormMatrialSetting;
@@ -20,7 +21,8 @@ public:
 private:
     Ui::FormMatrialSetting *ui;
     QTableView *m_matrialTable;
-    QStandardItemModel *m_standItemModel;;
+    QStandardItemModel *m_standItemModel;
+    QPushButton *m_btnAdd, *m_btnDel, *m_btnChg, *m_btnSave;
 };
 
 #endif // FORMMATRIALSETTING_H
