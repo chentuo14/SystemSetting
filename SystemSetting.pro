@@ -18,6 +18,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     formhadrwareconfig.cpp \
     formmatrialsetting.cpp \
+    formmotorsetting.cpp \
     formprojectorsetting.cpp \
     formserialportsetting.cpp \
     main.cpp \
@@ -26,6 +27,7 @@ SOURCES += \
 HEADERS += \
     formhadrwareconfig.h \
     formmatrialsetting.h \
+    formmotorsetting.h \
     formprojectorsetting.h \
     formserialportsetting.h \
     mainwindow.h
@@ -33,6 +35,7 @@ HEADERS += \
 FORMS += \
     formhadrwareconfig.ui \
     formmatrialsetting.ui \
+    formmotorsetting.ui \
     formprojectorsetting.ui \
     formserialportsetting.ui \
     mainwindow.ui

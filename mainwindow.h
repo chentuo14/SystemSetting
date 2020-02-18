@@ -10,6 +10,7 @@
 #include "formserialportsetting.h"
 #include "formprojectorsetting.h"
 #include "formmatrialsetting.h"
+#include "formmotorsetting.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -32,5 +33,6 @@ private:
     FormSerialPortSetting *m_spConfig;
     FormProjectorSetting *m_pjConfig;
     FormMatrialSetting *m_msConfig;
+    FormMotorSetting *m_mtConfig;
 };
 #endif // MAINWINDOW_H
