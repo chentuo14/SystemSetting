@@ -6,7 +6,6 @@ FormMatrialSetting::FormMatrialSetting(QWidget *parent) :
     ui(new Ui::FormMatrialSetting)
 {
     ui->setupUi(this);
-
     //位置
     int space = 10;
     int tableWidth = 850;
@@ -49,13 +48,14 @@ FormMatrialSetting::FormMatrialSetting(QWidget *parent) :
     m_standItemModel->setHeaderData(6, Qt::Horizontal, "Count");
     //
     QStandardItem *standItem = new QStandardItem();
-    m_standItemModel->setItem(0, 0, new QStandardItem("张三"));
-    m_standItemModel->setItem(0, 1, new QStandardItem("20120202"));
-    m_standItemModel->setItem(0, 2, new QStandardItem("男"));
-    m_standItemModel->setItem(0, 3, new QStandardItem("18"));
-    m_standItemModel->setItem(0, 4, new QStandardItem("土木学院"));
-    m_standItemModel->setItem(0, 5, new QStandardItem("土木学院"));
-    m_standItemModel->setItem(0, 6, new QStandardItem("土木学院"));
+    m_standItemModel->setItem(0, 0, new QStandardItem("HT_300"));
+    m_standItemModel->setItem(0, 1, new QStandardItem("100"));
+    m_standItemModel->setItem(0, 2, new QStandardItem("12000"));
+    m_standItemModel->setItem(0, 3, new QStandardItem("10"));
+    m_standItemModel->setItem(0, 4, new QStandardItem("120"));
+    m_standItemModel->setItem(0, 5, new QStandardItem("5000"));
+    m_standItemModel->setItem(0, 6, new QStandardItem("1"));
+
     m_matrialTable->setModel(m_standItemModel);
 }
 
